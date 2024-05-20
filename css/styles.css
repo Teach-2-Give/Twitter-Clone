@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #1DA1F2;
+    color: white;
+    padding: 10px 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#search {
+    display: flex;
+    align-items: center;
+}
+
+#search label {
+    margin-right: 10px;
+}
+
+#profile {
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+#profile-header {
+    background-image: url('https://via.placeholder.com/1200x200');
+    background-size: cover;
+    height: 200px;
+    position: relative;
+}
+
+#profile-picture {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    bottom: -75px;
+    left: 20px;
+    border: 5px solid white;
+}
+
+#profile-details {
+    padding: 80px 20px 20px;
+    text-align: center;
+}
+
+#posts, #comments {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+.post-item {
+    display: flex;
+    align-items: start;
+    margin-bottom: 20px;
+}
+
+.post-item img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.post-item h3 {
+    margin: 0;
+}
+
+.comment-item {
+    display: flex;
+    align-items: start;
+    margin-bottom: 20px;
+}
+
+.comment-item img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.comment-item p {
+    margin: 0;
+}
