@@ -12,7 +12,7 @@ header {
 
 .container {
     width: 90%;
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -30,6 +30,22 @@ header .container {
 #search label {
     margin-right: 10px;
 }
+
+#search-button {
+    background-color: #1DA1F2;
+    color: white;
+    border: none;
+    padding: 10px 16px; /* Adjust padding for larger size */
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em; /* Adjust font size for larger size */
+}
+
+#search-button:hover {
+    background-color: #0e8de0;
+}
+
 
 #profile {
     background-color: white;
@@ -57,8 +73,27 @@ header .container {
 }
 
 #profile-details {
-    padding: 80px 20px 20px;
+    padding: 20px;
     text-align: center;
+    max-height: 150px;
+    overflow: hidden;
+}
+
+#profile-details h2,
+#profile-details p {
+    margin: 0;
+    padding: 5px 0;
+}
+
+#profile-details p {
+    font-size: 0.9em;
+}
+
+
+.location-icon {
+    color: red;
+    margin-left: 5px;
+    vertical-align: middle;
 }
 
 #posts, #comments {
